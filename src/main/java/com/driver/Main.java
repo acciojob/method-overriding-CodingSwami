@@ -1,14 +1,14 @@
 package com.driver;
 
 public class Main {
-     static class A{
+     private static class A{
         public String meth()
         {
             return "Invoking method from class A";
         }
     }
 }
-     static class B extends A{
+     private static class B extends A{
 
         public B(){
             A obj= new A();
